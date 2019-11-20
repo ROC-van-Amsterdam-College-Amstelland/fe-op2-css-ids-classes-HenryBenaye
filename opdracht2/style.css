@@ -13,3 +13,64 @@ img{
 }
 /* Einde aangeleverde code, laten staan, niet veranderen */
 /* Vul hieronder je eigen code */
+
+header, main, footer{
+    width: 100%;
+}
+
+
+header, footer{
+    height: 20%;
+}
+
+main{
+    height: 80%;
+    background-color: rgb(68, 128, 137);
+}
+
+header img{ 
+    margin: 20px;
+
+}
+
+main img{
+    width: 400px;
+
+}
+
+footer img{
+    border: 1px solid black;
+}
+
+header nav, header nav ul{
+    display: flex;
+    
+
+}
+
+header a{
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+div h1{
+ font-size: 50px;
+ background-color: rgb(255, 0, 0);   
+
+}
+
+ul{
+    border: 1px dashed black;
+}
+
+h3 ~ p{
+     font-family: fantasy;
+ }
+
+ img + ul{
+     color: rgb(122, 44, 44)
+ }
+
